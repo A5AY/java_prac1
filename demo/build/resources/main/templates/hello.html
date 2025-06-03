@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Spring</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Welcome.</h1>
+    <form th:action="@{/hello}" method="post">
+        入力：<input type="text" name="text1"/>
+        <input type="submit" value="送信" />
+</body>
+</html>
