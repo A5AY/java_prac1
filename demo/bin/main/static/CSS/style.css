@@ -21,13 +21,28 @@ h1 {
 }
 
 p {
-    background-color: rgba(255, 255, 255, 0.8); 
     padding: 15px 25px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 柔らかな影 */
     font-size: 1.2em;
     line-height: 1.6;
     color: #4a4a4a; /* 少し濃いグレー */
     max-width: 60px;
     /* text-align: center; */
+}
+
+table {
+    width: 25%;
+    border-collapse: collapse; /* セルの枠線を重ねて表示 */
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid #ddd; /* テーブル全体の枠線 */
+}
+
+/* テーブルのヘッダーとデータセルに枠線を追加 */
+th, td {
+    border: 1px solid #ddd; /* セルごとの枠線 */
+    padding: 8px; /* セルの内側の余白 */
+    text-align: left; /* テキストの配置 */
 }
