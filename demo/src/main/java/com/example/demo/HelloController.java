@@ -25,7 +25,7 @@ public class HelloController {
         
         model.addAttribute("sample", str);
         return "hello/response";
-
+        
     }
 
     @PostMapping("/hello/db")
