@@ -1,9 +1,13 @@
 .form-signup {
     width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 450px; /* 少し広げて入力項目にゆとりを持たせる */
+    margin: 50px auto; /* 上下の余白を増やし、ページ中央に配置 */
+    padding: 30px; /* 内側の余白を増やして窮屈さをなくす */
+    background-color: #ffffff; /* 純粋な白で清潔感を出す */
+    border-radius: 12px; /* より丸みのある角で柔らかさを表現 */
+    /* 複数の影を重ねて、より深い奥行きと洗練された浮遊感を出す */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 12px 40px rgba(0, 0, 0, 0.08);
+    /* フォームのフッターと分離するためのトップボーダー */
+    border-top: 5px solid #007bff; /* 例: ブランドカラーに合わせた強調 */
+    overflow: hidden; /* 角丸とボーダーが重なるのを防ぐ */
 }
