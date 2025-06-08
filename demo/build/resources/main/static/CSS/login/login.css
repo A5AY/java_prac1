@@ -1,0 +1,10 @@
+.form-login{
+    width: 100%;
+    max-width: 380px; /* 少し広げてゆとりを持たせる */
+    margin: 40px auto; /* 上下のマージンを増やしてページの中央に配置 */
+    padding: 30px; /* パディングを増やして内容にゆとりを持たせる */
+    background-color: #ffffff; /* 背景を純粋な白にしてクリーンな印象に */
+    border-radius: 10px; /* 角の丸みを大きくして柔らかさを出す */
+    /* 影をよりソフトで多層的にして奥行きを強調 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), 0 8px 30px rgba(0, 0, 0, 0.05);
+}
